@@ -1,0 +1,10 @@
+
+body{text-align: center}
+.wrapper{text-align: center;position: relative;display: inline-block;margin-top: 100px;}
+.clickMe{background:#fff;color: red;padding: 8px 10px;}
+.popover{border: 1px solid #ef4242;position: absolute;top: 0;left: 100%;white-space: nowrap;text-align: left;
+    margin-left: 10px;background: #fff;padding: 5px;display: none}
+.popover::before{content: '';position: absolute;right: 100%;border: 10px solid transparent;width: 0;
+    border-right-color:#ef4242 ;top: 5px;}
+.popover::after{content: '';position: absolute;right: 100%;border: 10px solid transparent;width: 0;
+        border-right-color:#fff;margin-right: -1px; top: 5px;}
